@@ -1,5 +1,7 @@
 FROM alpine:3.8
 MAINTAINER sysadmin@mimacom.com
+ENV TZ Asia/Shanghai
+ENV LANG C.UTF-8
 
 # Setup useful environment variables
 ENV JREBEL_INSTALL  /opt/jrebel
